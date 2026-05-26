@@ -1,11 +1,8 @@
 body {
-
-  font-family: "Times New Roman", Times, serif;
-}
-
-main {
   width: 33.333vw;
   margin-left: auto;
   margin-right: auto;
+
+  font-family: "Times New Roman", Times, serif;
   text-align: justify;
 }
