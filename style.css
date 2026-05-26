@@ -12,3 +12,9 @@ p {
   max-width: 700px;
   padding: 1rem;
 }
+
+img{
+  max-width: 50%;
+  height: auto;
+  justify-self: center;
+}
