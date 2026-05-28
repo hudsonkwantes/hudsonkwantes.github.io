@@ -1,13 +1,13 @@
 img{
-    
-    align-items: center;
-    justify-content: center;
-
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 100vh;           /* Takes up 100% of the viewport height */
 }
+
+
 p{
-    
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: center;
-
 }
