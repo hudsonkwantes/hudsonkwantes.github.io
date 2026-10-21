@@ -23,7 +23,7 @@ body {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 32px clamp(20px, 5vw, 64px);
+    padding: 50px clamp(20px, 5vw, 64px);
 }
 
 /* Header */
@@ -33,7 +33,7 @@ body {
     justify-content: space-between;
     align-items: baseline;
     gap: 24px;
-    margin-bottom: clamp(40px, 7vw, 90px);
+    margin-bottom: clamp(50px, 7vw, 100px);
     text-align: left;
 }
 
@@ -108,6 +108,18 @@ body {
 
 .project:hover .project-arrow {
     transform: translate(3px, -3px);
+}
+
+/* Spacing between archive projects */
+
+.project + .project {
+    margin-top: 75px;
+}
+
+@media (max-width: 600px) {
+    .project + .project {
+        margin-top: 48px;
+    }
 }
 
 /* Footer */
